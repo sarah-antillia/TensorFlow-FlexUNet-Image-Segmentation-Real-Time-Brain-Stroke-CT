@@ -327,10 +327,9 @@ python ../../../src/TensorFlowFlexUNetInferencer.py ./train_eval_infer.config
 <b>Enlarged images and masks for Images of 512x512 pixels </b><br>
 As shown below, this segmentation model failed to detect some Bleeding and Ischemia lesions.<br>
 
-<b>rgb_map (Bleeding:red, Ischemia:green)</b> <br>
-<br>
-<table>
+<b>rgb_map (Hemorrhagic:red, Ischemic:green)</b> <br>
 
+<table>
 <tr>
 
 <th>Image</th>
